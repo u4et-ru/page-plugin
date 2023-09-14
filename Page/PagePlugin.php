@@ -4,8 +4,6 @@ namespace Plugin\Page;
 
 use App\Domain\AbstractPlugin;
 use Psr\Container\ContainerInterface;
-use Slim\Psr7\Request;
-use Slim\Psr7\Response;
 
 class PagePlugin extends AbstractPlugin
 {

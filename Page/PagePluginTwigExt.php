@@ -3,10 +3,6 @@
 namespace Plugin\Page;
 
 use App\Domain\AbstractExtension;
-use App\Domain\Entities\Catalog\Order;
-use App\Domain\Entities\User;
-use App\Domain\Service\Catalog\Exception\OrderNotFoundException;
-use App\Domain\Service\Catalog\OrderService as CatalogOrderService;
 
 class PagePluginTwigExt extends AbstractExtension
 {
