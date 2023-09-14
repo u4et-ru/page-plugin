@@ -9,7 +9,7 @@ class PagePlugin extends AbstractPlugin
 {
     const NAME = 'PagePlugin';
     const TITLE = 'Page';
-    const VERSION = '1.0';
+    const VERSION = '1.1';
 
     public function __construct(ContainerInterface $container)
     {
